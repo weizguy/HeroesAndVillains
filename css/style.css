@@ -1,0 +1,151 @@
+﻿body {
+    padding-top: 65px;
+    margin: auto;
+    background-color: mintcream;
+    /*background-image: url("images/background.jpg");*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+}
+header ul {
+    list-style-type: none;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    background-image: url('../images/bar.png');
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
+
+li {
+    text-align: center;
+    float: none;
+    display: inline-block;
+}
+
+header li a {
+    display: block;
+    color: darkred;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+}
+
+#spidey {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    background-image: url("../images/spidey.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 300px;
+}
+
+.view {
+    position: relative;
+    opacity: 1;
+}
+
+#indent {
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+.bgWhite {
+    background-color: white;
+    background-image: url("../images/smallbg.jpg");
+    background-size: 820px;
+    background-position: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: white;
+    width:800px;
+    margin: auto;
+    padding: 10px;
+}
+
+.table {
+    border: 2px solid black;
+    border-radius: 15px;
+    z-index: 1;
+    width:800px;
+    margin: auto;
+    padding: 3px;
+}
+
+.table tbody tr:first-child td{
+    background-color: red;
+    font-weight: bold;
+    padding-left: 5px;
+    color: #fff;
+}
+
+.table tbody tr:nth-child(2) td{
+    background-color: white;
+}
+.table tr:first-child th {
+    background-color: #006dcc;
+    text-align: left;
+    padding: 0 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: silver;
+    background-size: cover;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    border-top: 1px solid black;
+    text-decoration: none;
+}
+
+footer li  {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+
+footer li  a {
+    color: darkred;
+}
+
+#return-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    display: block;
+    opacity: .6;
+    transition: all .3s ease;
+    display: none;
+}
+#return-to-top:hover {
+    opacity: 1;
+}
+

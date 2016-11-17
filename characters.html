@@ -1,0 +1,28 @@
+﻿
+<div class="span12" data-ng-repeat="character in cc.characterArr | filter:nameText | orderBy:'charName'">
+    <table class="table">
+    <thead>
+        <tr>
+            <th colspan="4"> {{ character.charName | uppercase }}</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr >
+        <td>
+            {{ 'Alias: ' }}  {{ character.alias | uppercase }}
+        </td>
+        <td>
+            {{ 'Studio: ' }}  {{ character.studio | uppercase }}
+        </td>
+        <td>
+            {{ 'Affiliation: ' }}  {{ character.alignment | uppercase }}
+        </td>
+    </tr>
+        <tr >
+            <td colspan="3">
+                {{ character.info }}
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br>

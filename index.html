@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html data-ng-app="comicsApp">
+<head>
+    <title>Heroes & Villains</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src="https://www.gstatic.com/firebasejs/3.6.1/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
+    <script data-require="angularjs@1.3.6" data-semver="1.3.6" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.6/angular.min.js"></script>
+    <script src="script/script.js"></script>
+    <script src="script/controller.js"></script>
+</head>
+<body>
+<br>
+<header>
+    <ul>
+        <li>
+
+            <a class="brand" href="#/">
+                <img src="images/spiderman.png">
+                <img src="images/superman.png">
+                <img src="images/batman.png">
+                <img src="images/hulk.png">
+                <img src="images/captainamerica.png">
+                <img src="images/ironman.png">
+                <img src="images/wolverine.png">
+
+                &nbsp; &nbsp; Heroes & Villains &nbsp; &nbsp;
+
+                <img src="images/apocalypse.png">
+                <img src="images/riddler.png">
+                <img src="images/catwoman.png">
+                <img src="images/penguin.png">
+                <img src="images/magneto.png">
+                <img src="images/harleyquinn.png">
+                <img src="images/redskull.png">
+            </a>
+        </li>
+    </ul>
+</header>
+
+<div id="spidey"></div>
+<div class="orders view">
+    <br>
+    <div class="container">
+        <div class="bgWhite"
+        <header>
+            <h2>All Characters</h2>
+        </header>
+        <div id="indent">Start typing, results filter automatically: <input type="text" placeholder="Filter Results" data-ng-model="nameText" />
+        </div>
+    </div>
+    <br>
+
+    <br />
+    <div class="row">
+
+
+<character-list></character-list>
+
+
+
+        </div>
+    </div>
+<br><br>
+
+<footer>
+    <ul>
+        <li>Created by Dave Weizenegger</li>
+        <li>Website: <a href="http://www.weizguy.com">weizguy.com</a></li>
+        <li>Twitter: <a href="http://twitter.com/weizguy">@weizguy</a></li>
+    </ul>
+</footer>
+<!-- Return to Top -->
+<a href="javascript:" id="return-to-top"><img src="https://thecraggus.files.wordpress.com/2015/02/spider-man-2.png?w=150&h=150"></img></a>
+
+</body>
