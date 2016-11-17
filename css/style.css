@@ -44,15 +44,50 @@ li a:hover {
     text-decoration: none;
 }
 
+#quinn {
+    position: fixed;
+    top: 10vh;
+    right: 5vw;
+    background-image: url("../images/quinn.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 200px;
+    height: 425px;
+}
+
+#deadpool {
+    position: fixed;
+    bottom: -20px;
+    left: 5vw;
+    background-image: url("../images/deadpool.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 300px;
+    height: 200px;
+}
+
 #spidey {
-    position: absolute;
-    top: 85px;
+    position: fixed;
+    top: 90px;
     left: 20px;
     background-image: url("../images/spidey.png");
     background-repeat: no-repeat;
     background-size: 100%;
     width: 200px;
     height: 300px;
+    z-index: 1;
+}
+
+#cat {
+    position: fixed;
+    bottom: -10px;
+    right: 12vw;
+    background-image: url("../images/cat.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    width: 200px;
+    height: 300px;
+    z-index: 1;
 }
 
 .view {
@@ -62,7 +97,10 @@ li a:hover {
 
 #indent {
     margin-left: 50px;
-    font-size: 16px;
+    font-size: 24px;
+}
+.search {
+    font-size: 24px;
 }
 
 .bgWhite {

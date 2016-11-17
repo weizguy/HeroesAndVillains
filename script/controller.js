@@ -147,6 +147,46 @@ app.directive("characterList", function(){
                         "studio": "Marvel",
                         "alignment": "Hero",
                         "info": "O'Grady is a low-level agent of SHIELD who stumbled upon the Ant-Man suit in SHIELD's headquarters. A man of few morals and willing to lie, cheat, steal and manipulate in order to get ahead in life, Eric stole the armor for his own selfish plans, which included using his status as a 'super-hero'to seduce women and humiliate and torment others. He had his own short-lived title before being part of other teams such as joining Avengers: The Initiative as his first team and then joining The Thunderbolts but more recently Secret Avengers, where the character perished heroically while defending a child against the villain known as Father. "
+                    },
+                    {
+                        "id": "15",
+                        "charName": "Poison Ivy",
+                        "alias": "Pamela Isley",
+                        "studio": "DC Comics",
+                        "alignment": "Villain",
+                        "info": "Poison Ivy is depicted as one of the world's most notorious eco-terrorists. She is obsessed with plants, botany, ecological extinction and environmentalism. She uses toxins from plants and mind-controlling pheromones for her criminal activities, which are usually aimed at protecting endangered species and the natural environment. "
+                    },
+                    {
+                        "id": "16",
+                        "charName": "Wonder Woman",
+                        "alias": "Diana Prince",
+                        "studio": "DC Comics",
+                        "alignment": "Hero",
+                        "info": "Wonder Woman is Princess Diana of the immortal Amazons from Greek mythology.  When army pilot Steve Trevor crashes on the warriors’ secluded island paradise, Diana wins the right to escort him home and make her people known to the world. Entering our cynical world for the first time, there’s a lot she must wrap her head around, especially our ways of war, hate, and, well… dating. "
+                    },
+                    {
+                        "id": "17",
+                        "charName": "Batgirl",
+                        "alias": "Barbara Gordon",
+                        "studio": "DC Comics",
+                        "alignment": "Hero",
+                        "info": "Batgirl is Barbara Gordon, a confident young woman as committed to justice as her father, Gotham City’s top cop Commissioner Gordon. But when her overprotective Dad forbids her from joining the force, her admiration of Batman leads her to rebel the way crime fighting rebels do in Gotham City: by picking up the mantle of the Bat. "
+                    },
+                    {
+                        "id": "18",
+                        "charName": "Green Arrow",
+                        "alias": "Oliver Queen",
+                        "studio": "DC Comics",
+                        "alignment": "Hero",
+                        "info": "Spoiled billionaire Oliver Queen came home with an entirely different personality and a newfound purpose in life. Completely self-absorbed and never caring about anything but himself, Queen was on a leisurely sailing trip when his assistant betrayed him, leaving him for dead on a desolate remote island. Stranded, he survived by, amongst other things, mastering a bow and arrow. "
+                    },
+                    {
+                        "id": "19",
+                        "charName": "The Flash",
+                        "alias": "Barry Allen",
+                        "studio": "DC Comics",
+                        "alignment": "Hero",
+                        "info": "Young Barry Allen’s life stopped the minute his mother was murdered. The true killer never found, its mystery obsessed Barry, driving him to become a forensic scientist. Consumed by his work, he spent his life chained to his desk, solving every case that flew across it. But when a freak lightning bolt hits a nearby shelf in his lab, Barry receives super-speed, becoming the Flash. "
                     }
             ];
         },
