@@ -90,6 +90,18 @@ li a:hover {
     z-index: 1;
 }
 
+#hulk {
+    position: absolute;
+    bottom: -450px;
+    right: 40vw;
+    background-image: url("../images/hulklg.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 400px;
+    height: 500px;
+    z-index: 1;
+}
+
 .view {
     position: relative;
     opacity: 1;
