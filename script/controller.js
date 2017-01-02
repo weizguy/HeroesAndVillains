@@ -82,7 +82,7 @@ app.directive("characterList", function(){
                     "alias": "Oswald Cobblepot",
                     "studio": "DC Comics",
                     "alignment": "Villain",
-                    "info": "No one knows more about what the evil forces of Gotham are up to at any given moment than he and he uses that information to blackmail, intimidate and corrupt anyone he can, especially when it?s in the service of bringing down Batman."
+                    "info": "No one knows more about what the evil forces of Gotham are up to at any given moment than he and he uses that information to blackmail, intimidate and corrupt anyone he can, especially when it's in the service of bringing down Batman."
                 },
                 {
                     "id": "7",
